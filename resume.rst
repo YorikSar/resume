@@ -45,11 +45,12 @@ Work experience
 
 - OpenStack projects research
 - Various bugfixes and improvements in OpenStack core
-- Integration of old Nova with legacy LDAP, development of Keystone LDAP
-  backend
-- Development and pushing to upstream of Nexenta volume driver for Nova
+- Integration of old Nova with legacy LDAP, initial development of Keystone
+  LDAP backend
+- Developed and pushed to upstream Nexenta volume driver for Nova
+- Developed Isilon volume driver and Infoblox integration for Nova
 - Python training for students
-- Active participation in adoption of various collaboration tools ant
+- Active participation in adoption of various collaboration tools and
   techniques
 - Design of baremetal provisioning for Nova
 - Lead Mirantis OpenStack-compatible LBaaS service to its production-ready
