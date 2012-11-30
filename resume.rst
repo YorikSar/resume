@@ -26,7 +26,7 @@ Programming languages
 
 Programming libraries and technologies
     Django, eventlet, Paste.Deploy, webob, SQLAlchemy, paramiko,
-    .NET, ASP.NET, Windows Forms, log4net, SOAP, CyrptoAPI
+    .NET, ASP.NET, Windows Forms, log4net, SOAP, CryptoAPI
 
 Operating systems
     Windows XP, Vista, 2000 Server, 2003 Server; Linux (Ubuntu, CentOS/RHEL,
