@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="Docutils 0.9.1: http://docutils.sourceforge.net/" />
+<meta name="generator" content="Docutils 0.10: http://docutils.sourceforge.net/" />
 <title>Yuriy Taraday, Senior Software Engineer</title>
 <style type="text/css">
 
 /*
 :Author: David Goodger (goodger@python.org)
-:Id: $Id: html4css1.css 7434 2012-05-11 21:06:27Z milde $
+:Id: $Id: html4css1.css 7514 2012-09-14 14:27:12Z milde $
 :Copyright: This stylesheet has been placed in the public domain.
 
 Default cascading style sheet for the HTML output of Docutils.
@@ -77,7 +77,7 @@ div.tip p.admonition-title {
 
 div.attention p.admonition-title, div.caution p.admonition-title,
 div.danger p.admonition-title, div.error p.admonition-title,
-div.warning p.admonition-title {
+div.warning p.admonition-title, .code .error {
   color: red ;
   font-weight: bold ;
   font-family: sans-serif }
@@ -253,13 +253,14 @@ pre.literal-block, pre.doctest-block, pre.math, pre.code {
   margin-left: 2em ;
   margin-right: 2em }
 
-pre.code .ln { /* line numbers */
-  color: grey;
-}
-
-.code {
-  background-color: #eeeeee
-}
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
 
 span.classifier {
   font-family: sans-serif ;
@@ -349,11 +350,14 @@ ul.auto-toc {
 <tr><td>OpenStack Gerrit</td>
 <td><a class="reference external" href="https://review.openstack.org/#/dashboard/708">https://review.openstack.org/#/dashboard/708</a></td>
 </tr>
+<tr><td>Stackalytics</td>
+<td><a class="reference external" href="http://stackalytics.com/report/users/yorik-sar">http://stackalytics.com/report/users/yorik-sar</a></td>
+</tr>
 </tbody>
 </table>
 <div class="section" id="common-summary">
 <h1>Common Summary</h1>
-<p>I'm a software engineer with 5 years of professional background in different
+<p>I'm a software engineer with 8 years of professional background in different
 areas. My role varied from Junior Developer to Team Leader. Have experience
 with large highloaded payment system. Have large expertise in OpenStack, made
 some big contributions there and a number of small ones.</p>
@@ -364,7 +368,7 @@ some big contributions there and a number of small ones.</p>
 <dt>Programming languages</dt>
 <dd>Python, C#, C/C++, Java, Bash script, Makefile</dd>
 <dt>Programming libraries and technologies</dt>
-<dd>Django, eventlet, Paste.Deploy, webob, SQLAlchemy, paramiko,
+<dd>Django, eventlet, Paste.Deploy, webob, SQLAlchemy, paramiko, OpenStack,
 .NET, ASP.NET, Windows Forms, log4net, SOAP, CryptoAPI</dd>
 <dt>Operating systems</dt>
 <dd>Windows XP, Vista, 2000 Server, 2003 Server; Linux (Ubuntu, CentOS/RHEL,
@@ -390,7 +394,11 @@ LDAP backend</li>
 techniques</li>
 <li>Design of baremetal provisioning for Nova</li>
 <li>Lead Mirantis OpenStack-compatible LBaaS service to its production-ready
-state.</li>
+state</li>
+<li>Created a new mode of operations for privilege escalation tool that provided
+speed up of up to 10x</li>
+<li>Was involved in solving scalability issues in Mirantis OpenStack</li>
+<li>Worked on OpenStack upgrade automatisation and implementation in Fuel</li>
 </ul>
 <p><strong>System Architect, SGM Technologies</strong>, <em>Jun 2010 - Apr 2011, Moscow</em></p>
 <ul class="simple">
