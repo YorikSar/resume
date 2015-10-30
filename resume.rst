@@ -1,14 +1,15 @@
 Yuriy Taraday, Senior Software Engineer
 =======================================
 
-================= =============================================
+================= ==============================================
  Date of birth    3 Aug 1988
  Email            yorik.sar@gmail.com, ytaraday@mirantis.com
  Skype            yorik.sar
  Mobile           +79648788441
  GitHub           https://github.com/YorikSar
  OpenStack Gerrit https://review.openstack.org/#/dashboard/708
-================= =============================================
+ Stackalytics     http://stackalytics.com/report/users/yorik-sar
+================= ==============================================
 
 Common Summary
 --------------
