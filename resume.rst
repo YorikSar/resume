@@ -13,7 +13,7 @@ Yuriy Taraday, Senior Software Engineer
 Common Summary
 --------------
 
-I'm a software engineer with 5 years of professional background in different
+I'm a software engineer with 8 years of professional background in different
 areas. My role varied from Junior Developer to Team Leader. Have experience
 with large highloaded payment system. Have large expertise in OpenStack, made
 some big contributions there and a number of small ones.
