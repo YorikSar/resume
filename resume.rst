@@ -26,7 +26,7 @@ Programming languages
     Python, C#, C/C++, Java, Bash script, Makefile
 
 Programming libraries and technologies
-    Django, eventlet, Paste.Deploy, webob, SQLAlchemy, paramiko,
+    Django, eventlet, Paste.Deploy, webob, SQLAlchemy, paramiko, OpenStack,
     .NET, ASP.NET, Windows Forms, log4net, SOAP, CryptoAPI
 
 Operating systems
@@ -55,7 +55,11 @@ Work experience
   techniques
 - Design of baremetal provisioning for Nova
 - Lead Mirantis OpenStack-compatible LBaaS service to its production-ready
-  state.
+  state
+- Created a new mode of operations for privilege escalation tool that provided
+  speed up of up to 10x
+- Was involved in solving scalability issues in Mirantis OpenStack
+- Worked on OpenStack upgrade automatisation and implementation in Fuel
 
 **System Architect, SGM Technologies**, *Jun 2010 - Apr 2011, Moscow*
 
