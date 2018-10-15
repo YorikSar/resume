@@ -1,37 +1,40 @@
-Yuriy Taraday, Senior Software Engineer
-=======================================
+.. |nbsp| unicode:: 0xA0 
+   :trim:
+
+Yuriy Taraday, Principal Software Engineer
+==========================================
 
 ================= ==============================================
  Date of birth    3 Aug 1988
- Email            yorik.sar@gmail.com, ytaraday@mirantis.com
- Skype            yorik.sar
+ Email            yorik.sar@gmail.com, |nbsp| ytaraday@mirantis.com
  Mobile           +79648788441
  GitHub           https://github.com/YorikSar
- OpenStack Gerrit https://review.openstack.org/#/dashboard/708
- Stackalytics     http://stackalytics.com/report/users/yorik-sar
 ================= ==============================================
 
 Common Summary
 --------------
 
-I'm a software engineer with 8 years of professional background in different
+I'm a software engineer with 11 years of professional background in different
 areas. My role varied from Junior Developer to Team Leader. Have experience
 with large highloaded payment system. Have large expertise in OpenStack, made
-some big contributions there and a number of small ones.
+some big contributions there and a number of small ones. Participated in
+various open source projects. Engineered cloud-native systems on top of
+Kubernetes.
 
 Technical Summary
 -----------------
 
 Programming languages
-    Python, C#, C/C++, Java, Bash script, Makefile
+    Go, Python, C#, C/C++, Java, Bash script, Makefile
 
 Programming libraries and technologies
+    Kubernetes, Docker, Helm, protobuf, gRPC,
     Django, eventlet, Paste.Deploy, webob, SQLAlchemy, paramiko, OpenStack,
     .NET, ASP.NET, Windows Forms, log4net, SOAP, CryptoAPI
 
 Operating systems
     Windows XP, Vista, 2000 Server, 2003 Server; Linux (Ubuntu, CentOS/RHEL,
-    Gentoo); FreeBSD
+    Gentoo, NixOS); FreeBSD
 
 DBMS
     MySQL, MS SQL Server, Postgres
@@ -42,7 +45,11 @@ VCS
 Work experience
 ---------------
 
-**Senior Software Engineer, Mirantis Inc**, *Apr 2011 - now, Saratov*
+**Principal Software Engineer, Mirantis Inc**, *Apr 2018 - now, Saratov*
+
+- Lead development of Spinnaker-based CI/CD product
+
+**Senior Software Engineer, Mirantis Inc**, *Apr 2011 - Apr 2018, Saratov*
 
 - OpenStack projects research
 - Various bugfixes and improvements in OpenStack core
@@ -60,6 +67,11 @@ Work experience
   speed up of up to 10x
 - Was involved in solving scalability issues in Mirantis OpenStack
 - Worked on OpenStack upgrade automatisation and implementation in Fuel
+- Participated in OpenStack containerized control plane initiative, succeeded
+  in deploying and upgrading 900-node OpenStack cluster on top of Kubernetes
+  in 20 minutes
+- Helped developing a library of Helm charts for different open source software
+  systems
 
 **System Architect, SGM Technologies**, *Jun 2010 - Apr 2011, Moscow*
 
