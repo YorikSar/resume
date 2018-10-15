@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="Docutils 0.10: http://docutils.sourceforge.net/" />
-<title>Yuriy Taraday, Senior Software Engineer</title>
+<meta name="generator" content="Docutils 0.14: http://docutils.sourceforge.net/" />
+<title>Yuriy Taraday, Principal Software Engineer</title>
 <style type="text/css">
 
 /*
 :Author: David Goodger (goodger@python.org)
-:Id: $Id: html4css1.css 7514 2012-09-14 14:27:12Z milde $
+:Id: $Id: html4css1.css 7952 2016-07-26 18:15:59Z milde $
 :Copyright: This stylesheet has been placed in the public domain.
 
 Default cascading style sheet for the HTML output of Docutils.
@@ -36,6 +36,14 @@ table.borderless td, table.borderless th {
 
 .hidden {
   display: none }
+
+.subscript {
+  vertical-align: sub;
+  font-size: smaller }
+
+.superscript {
+  vertical-align: super;
+  font-size: smaller }
 
 a.toc-backref {
   text-decoration: none ;
@@ -161,18 +169,23 @@ h2.subtitle {
 hr.docutils {
   width: 75% }
 
-img.align-left, .figure.align-left, object.align-left {
+img.align-left, .figure.align-left, object.align-left, table.align-left {
   clear: left ;
   float: left ;
   margin-right: 1em }
 
-img.align-right, .figure.align-right, object.align-right {
+img.align-right, .figure.align-right, object.align-right, table.align-right {
   clear: right ;
   float: right ;
   margin-left: 1em }
 
 img.align-center, .figure.align-center, object.align-center {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.align-center {
   margin-left: auto;
   margin-right: auto;
 }
@@ -193,6 +206,15 @@ div.align-right {
 
 /* div.align-center * { */
 /*   text-align: left } */
+
+.align-top    {
+  vertical-align: top }
+
+.align-middle {
+  vertical-align: middle }
+
+.align-bottom {
+  vertical-align: bottom }
 
 ol.simple, ul.simple {
   margin-bottom: 1em }
@@ -313,6 +335,21 @@ table.docutils th.field-name, table.docinfo th.docinfo-name {
   white-space: nowrap ;
   padding-left: 0 }
 
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
 h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
 h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
   font-size: 100% }
@@ -323,23 +360,20 @@ ul.auto-toc {
 </style>
 </head>
 <body>
-<div class="document" id="yuriy-taraday-senior-software-engineer">
-<h1 class="title">Yuriy Taraday, Senior Software Engineer</h1>
+<div class="document" id="yuriy-taraday-principal-software-engineer">
+<h1 class="title">Yuriy Taraday, Principal Software Engineer</h1>
 
 <table border="1" class="docutils">
 <colgroup>
-<col width="27%" />
-<col width="73%" />
+<col width="26%" />
+<col width="74%" />
 </colgroup>
 <tbody valign="top">
 <tr><td>Date of birth</td>
 <td>3 Aug 1988</td>
 </tr>
 <tr><td>Email</td>
-<td><a class="reference external" href="mailto:yorik.sar&#64;gmail.com">yorik.sar&#64;gmail.com</a>, <a class="reference external" href="mailto:ytaraday&#64;mirantis.com">ytaraday&#64;mirantis.com</a></td>
-</tr>
-<tr><td>Skype</td>
-<td>yorik.sar</td>
+<td><a class="reference external" href="mailto:yorik.sar&#64;gmail.com">yorik.sar&#64;gmail.com</a>,&nbsp;<a class="reference external" href="mailto:ytaraday&#64;mirantis.com">ytaraday&#64;mirantis.com</a></td>
 </tr>
 <tr><td>Mobile</td>
 <td>+79648788441</td>
@@ -347,32 +381,29 @@ ul.auto-toc {
 <tr><td>GitHub</td>
 <td><a class="reference external" href="https://github.com/YorikSar">https://github.com/YorikSar</a></td>
 </tr>
-<tr><td>OpenStack Gerrit</td>
-<td><a class="reference external" href="https://review.openstack.org/#/dashboard/708">https://review.openstack.org/#/dashboard/708</a></td>
-</tr>
-<tr><td>Stackalytics</td>
-<td><a class="reference external" href="http://stackalytics.com/report/users/yorik-sar">http://stackalytics.com/report/users/yorik-sar</a></td>
-</tr>
 </tbody>
 </table>
 <div class="section" id="common-summary">
 <h1>Common Summary</h1>
-<p>I'm a software engineer with 8 years of professional background in different
+<p>I'm a software engineer with 11 years of professional background in different
 areas. My role varied from Junior Developer to Team Leader. Have experience
 with large highloaded payment system. Have large expertise in OpenStack, made
-some big contributions there and a number of small ones.</p>
+some big contributions there and a number of small ones. Participated in
+various open source projects. Engineered cloud-native systems on top of
+Kubernetes.</p>
 </div>
 <div class="section" id="technical-summary">
 <h1>Technical Summary</h1>
 <dl class="docutils">
 <dt>Programming languages</dt>
-<dd>Python, C#, C/C++, Java, Bash script, Makefile</dd>
+<dd>Go, Python, C#, C/C++, Java, Bash script, Makefile</dd>
 <dt>Programming libraries and technologies</dt>
-<dd>Django, eventlet, Paste.Deploy, webob, SQLAlchemy, paramiko, OpenStack,
+<dd>Kubernetes, Docker, Helm, protobuf, gRPC,
+Django, eventlet, Paste.Deploy, webob, SQLAlchemy, paramiko, OpenStack,
 .NET, ASP.NET, Windows Forms, log4net, SOAP, CryptoAPI</dd>
 <dt>Operating systems</dt>
 <dd>Windows XP, Vista, 2000 Server, 2003 Server; Linux (Ubuntu, CentOS/RHEL,
-Gentoo); FreeBSD</dd>
+Gentoo, NixOS); FreeBSD</dd>
 <dt>DBMS</dt>
 <dd>MySQL, MS SQL Server, Postgres</dd>
 <dt>VCS</dt>
@@ -381,7 +412,11 @@ Gentoo); FreeBSD</dd>
 </div>
 <div class="section" id="work-experience">
 <h1>Work experience</h1>
-<p><strong>Senior Software Engineer, Mirantis Inc</strong>, <em>Apr 2011 - now, Saratov</em></p>
+<p><strong>Principal Software Engineer, Mirantis Inc</strong>, <em>Apr 2018 - now, Saratov</em></p>
+<ul class="simple">
+<li>Lead development of Spinnaker-based CI/CD product</li>
+</ul>
+<p><strong>Senior Software Engineer, Mirantis Inc</strong>, <em>Apr 2011 - Apr 2018, Saratov</em></p>
 <ul class="simple">
 <li>OpenStack projects research</li>
 <li>Various bugfixes and improvements in OpenStack core</li>
@@ -399,6 +434,11 @@ state</li>
 speed up of up to 10x</li>
 <li>Was involved in solving scalability issues in Mirantis OpenStack</li>
 <li>Worked on OpenStack upgrade automatisation and implementation in Fuel</li>
+<li>Participated in OpenStack containerized control plane initiative, succeeded
+in deploying and upgrading 900-node OpenStack cluster on top of Kubernetes
+in 20 minutes</li>
+<li>Helped developing a library of Helm charts for different open source software
+systems</li>
 </ul>
 <p><strong>System Architect, SGM Technologies</strong>, <em>Jun 2010 - Apr 2011, Moscow</em></p>
 <ul class="simple">
