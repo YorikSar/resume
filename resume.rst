@@ -42,12 +42,25 @@ DBMS
 VCS
     SVN, Git, Mercurial
 
+Current personal interests
+--------------------------
+
+Programming languages
+    Rust, Elm
+
+Technologies
+    Nix (and ecosystem), Bazel
+
 Work experience
 ---------------
 
 **Principal Software Engineer, Mirantis Inc**, *Apr 2018 - now, Saratov*
 
 - Lead development of Spinnaker-based CI/CD product
+- Lead initial development of Kubernetes-as-a-Service solution based on
+  Cluster API and kubeadm, later pivoted to Mirantis Container Cloud
+- Helped form a team for core development of MCC, managed it for a while
+- One of lead developers of core components of MCC
 
 **Senior Software Engineer, Mirantis Inc**, *Apr 2011 - Apr 2018, Saratov*
 
