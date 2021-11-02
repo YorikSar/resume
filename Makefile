@@ -6,11 +6,11 @@ page: .html/index.html
 git: page
 	cd .html;\
 		if [ "$$(git status -s)" ]; then \
-			git commit -am "Update to master branch" && git push origin gh-pages; \
+			git commit -am "Update to master branch"; \
 		fi
 
 .html/index.html: resume.rst | .html
 	rst2html.py $^ $@
 
 .html:
-	git clone -s -b gh-pages . .html
+	git worktree add .html gh-pages
