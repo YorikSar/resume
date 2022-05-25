@@ -1,115 +1,95 @@
 .. |nbsp| unicode:: 0xA0 
    :trim:
 
-Yuriy Taraday, Principal Software Engineer
-==========================================
+Anna Taradai, Senior Software Engineer
+======================================
 
 ================= ==============================================
- Date of birth    3 Aug 1988
- Email            yorik.sar@gmail.com, |nbsp| ytaraday@mirantis.com
- Mobile           +79648788441
- GitHub           https://github.com/YorikSar
+ Date of birth    25 Aug 1992
+ Email            ankamyshnikova@gmail.com, |nbsp| akamyshnikova@mirantis.com
+ Mobile
+ GitHub           https://github.com/AKamyshnikova
 ================= ==============================================
 
 Common Summary
 --------------
 
-I'm a software engineer with 11 years of professional background in different
-areas. My role varied from Junior Developer to Team Leader. Have experience
-with large highloaded payment system. Have large expertise in OpenStack, made
-some big contributions there and a number of small ones. Participated in
-various open source projects. Engineered cloud-native systems on top of
-Kubernetes.
+I am a Senior Software Engineer with a 9+ year of professional background.
+I am Python developer, but last 2 years I mostly involved in Go development of Kubernetes operators
+(operator-sdk based).
+Work with open source projects, like OpenStack (mostly Neutron and Octavia projects).
+I was part of the core review team for Neutron and I am still part of Octavia core review team.
+Aside from working on these projects I was also involved in their integration into Salt based and
+Kubernetes based cloud platforms.
+
+Last two years I have worked with Tungsten Fabric (OpenContrail) and its integration with Mirantis
+OpenStack Kubernetes Platform.
+
+I am eager to learn new technologies and my motto in work “All tasks can be solved, for some it
+is just a matter of time and patience”.
 
 Technical Summary
 -----------------
 
 Programming languages
-    Go, Python, C#, C/C++, Java, Bash script, Makefile
+    Go, Python, Bash script, Makefile
 
 Programming libraries and technologies
-    Kubernetes, Docker, Helm, protobuf, gRPC,
-    Django, eventlet, Paste.Deploy, webob, SQLAlchemy, paramiko, OpenStack,
-    .NET, ASP.NET, Windows Forms, log4net, SOAP, CryptoAPI
+    Kubernetes, Docker, Helm,  SQLAlchemy, OpenStack,
+    Salt, HAproxy, Gerrit, Jenkins, ZooKeeper, Kafka,
+    Redis
 
 Operating systems
-    Windows XP, Vista, 2000 Server, 2003 Server; Linux (Ubuntu, CentOS/RHEL,
-    Gentoo, NixOS); FreeBSD
+    Linux (Ubuntu), Windows, MacOS
 
 DBMS
-    MySQL, MS SQL Server, Postgres
+    MySQL, PostgreSQL, Cassandra DB
 
 VCS
-    SVN, Git, Mercurial
+    Git
 
-Current personal interests
---------------------------
-
-Programming languages
-    Rust, Elm
-
-Technologies
-    Nix (and ecosystem), Bazel
+Along with developing on Python and Go I have experience in writing Jenkins pipelines,
+shell scripts, unit/functional/e2e tests.
 
 Work experience
 ---------------
 
-**Principal Software Engineer, Mirantis Inc**, *Apr 2018 - now, Saratov*
+**Senior Software Engineer, Mirantis IT, Saratov** , *Sep 2020 - Present*
 
-- Lead development of Spinnaker-based CI/CD product
-- Lead initial development of Kubernetes-as-a-Service solution based on
-  Cluster API and kubeadm, later pivoted to Mirantis Container Cloud
-- Helped form a team for core development of MCC, managed it for a while
-- One of lead developers of core components of MCC
+    Tungstenfabric integration in MOS.
+    Go development of operator-sdk based operators.
+    Automation of backup-restore DB backends procedure for Tungstenfabric operator in MOS.
 
-**Senior Software Engineer, Mirantis Inc**, *Apr 2011 - Apr 2018, Saratov*
+**Senior Software Engineer, Mirantis IT, Saratov**, *Dec 2017 - Sep 2020*
 
-- OpenStack projects research
-- Various bugfixes and improvements in OpenStack core
-- Integration of old Nova with legacy LDAP, initial development of Keystone
-  LDAP backend
-- Developed and pushed to upstream Nexenta volume driver for Nova
-- Developed Isilon volume driver and Infoblox integration for Nova
-- Python training for students
-- Active participation in adoption of various collaboration tools and
-  techniques
-- Design of baremetal provisioning for Nova
-- Lead Mirantis OpenStack-compatible LBaaS service to its production-ready
-  state
-- Created a new mode of operations for privilege escalation tool that provided
-  speed up of up to 10x
-- Was involved in solving scalability issues in Mirantis OpenStack
-- Worked on OpenStack upgrade automatisation and implementation in Fuel
-- Participated in OpenStack containerized control plane initiative, succeeded
-  in deploying and upgrading 900-node OpenStack cluster on top of Kubernetes
-  in 20 minutes
-- Helped developing a library of Helm charts for different open source software
-  systems
+    Python upstream developer OpenStack Octavia project.
+    Attendance OpenStack PTG Atlanta 2017.
+    Member of core reviewers team of OpenStack Octavia.
+    Administration of hardware lab (configuration, management Jenkins via salt models ).
+    Throughput DPDK testing Neutron OVS capabilities.
+    Configuration of OpenStack components via salt models.
+    OpenStack Helm development (Octavia integration).
 
-**System Architect, SGM Technologies**, *Jun 2010 - Apr 2011, Moscow*
+**Software Engineer, Mirantis IT, Saratov**, *Oct 2015 - Dec 2017*
 
-- Adempiere system adaptation, enhancement and localization
-- Managing adotion of tools for effective team collaboration
-- Elaboration of internal and external team communications, information and
-  tasks interchange
-- local IT infrastructure support
+    Upstream OpenStack Python developer.
+    Neutron Core reviewer with focus on DB area.
+    Scale testing.
+    Speaker OpenStack Summit Barcelona 2016.
 
-**Head of IT department, ESGP**, *Jul 2009 - Jun 2010, Moscow*
+**Junior Software Engineer, Mirantis IT, Saratov**, *Mar 2013 - Oct 2015*
 
-- Payment system development oversight
-- Task statement and distribution
-- IT infrastructure oversight and development planning
-- Engineering staff recruitment and training
+    Upstream OpenStack Python developer.
+    Neutron Core reviewer with focus on DB area since June 2015.
+    Attendance OpenStack Summit Vancouver 2014.
 
-**Deputy head of IT department, ESGP**, *Jun 2008 - Jun 2009, Moscow*
+**Assistant, Saratov State University named after N.G.Chernyshevsky**, *Sep 2014 - Jun 2015*
 
-- Payment system software development and planning
-- Tasks distribution
-- New provider integration modules' infrastructure development
+    Instructor for practice lessons OOP Java basis
 
-**Software developer, ESGP**, *Oct 2007 - Jun 2008, Moscow*
+Education
+---------
 
-- Payment system integration with new providers, couple of key ones
-- Legacy payment system software support
-- Payment system studying
-- Developed new automated reporting and reconciliation system
+**Saratov State University named after N.G.Chernyshevsky**,  *2009 - 2014*
+
+    Diploma (specialist, Applied Mathematics and Computer Science)
