@@ -14,19 +14,19 @@ Anna Taradai, Senior Software Engineer
 Common Summary
 --------------
 
-I am a Senior Software Engineer with a 9+ year of professional background.
-I am Python developer, but last 2 years I mostly involved in Go development of Kubernetes operators
-(operator-sdk based).
-Work with open source projects, like OpenStack (mostly Neutron and Octavia projects).
-I was part of the core review team for Neutron and I am still part of Octavia core review team.
-Aside from working on these projects I was also involved in their integration into Salt based and
-Kubernetes based cloud platforms.
+I am a Senior Software Engineer with 9+ years of professional background.
+I worked with and contributed to many open source projects like OpenStack
+(mostly Neutron and Octavia projects), Kubernetes and Tungsten Fabric.
+I made many contributions to OpenStack, mainly in Python.
+I was in the core review team for Neutron and I am still in the Octavia core
+review team.
+For the last 2 years I am mostly involved in development of Kubernetes
+operators based on operator-sdk in Go.
+Aside from working on these projects I was also involved in their integration
+with Salt and Kubernetes based cloud platforms.
 
-Last two years I have worked with Tungsten Fabric (OpenContrail) and its integration with Mirantis
-OpenStack Kubernetes Platform.
-
-I am eager to learn new technologies and my motto in work “All tasks can be solved, for some it
-is just a matter of time and patience”.
+I am eager to learn new technologies and my motto in work is “Any task can be
+done, for some it is just a matter of time and patience”.
 
 Technical Summary
 -----------------
@@ -40,7 +40,7 @@ Programming libraries and technologies
     Redis
 
 Operating systems
-    Linux (Ubuntu), Windows, MacOS
+    Linux (Ubuntu), Windows, macOS
 
 DBMS
     MySQL, PostgreSQL, Cassandra DB
@@ -56,32 +56,35 @@ Work experience
 
 **Senior Software Engineer, Mirantis IT, Saratov** , *Sep 2020 - Present*
 
-- Tungstenfabric integration in MOS.
-- Go development of operator-sdk based operators.
-- Automation of backup-restore DB backends procedure for Tungstenfabric operator in MOS.
+- Tungsten Fabric integration in Mirantis OpenStack for Kubernetes.
+- Development of operator-sdk based operators in Go.
+- Automation of backup-restore DB backends procedure for Tungsten Fabric
+  operator in MOS.
+- Contribution to open source projects like https://k8ssandra.io
 
 **Senior Software Engineer, Mirantis IT, Saratov**, *Dec 2017 - Sep 2020*
 
-- Python upstream developer OpenStack Octavia project.
-- Attendance OpenStack PTG Atlanta 2017.
+- Upstream contributions to OpenStack Octavia project in Python.
+- Attended OpenStack PTG Atlanta 2017.
 - Member of core reviewers team of OpenStack Octavia.
-- Administration of hardware lab (configuration, management Jenkins via salt models ).
+- Administration of hardware lab (configuration, management using Jenkins and
+  Salt models).
 - Throughput DPDK testing Neutron OVS capabilities.
 - Configuration of OpenStack components via salt models.
 - OpenStack Helm development (Octavia integration).
 
 **Software Engineer, Mirantis IT, Saratov**, *Oct 2015 - Dec 2017*
 
-- Upstream OpenStack Python developer.
+- Upstream contributions to OpenStack in Python.
 - Neutron Core reviewer with focus on DB area.
 - Scale testing.
-- Speaker OpenStack Summit Barcelona 2016.
+- `Speaker <https://www.openstack.org/summit/barcelona-2016/summit-schedule/events/15920/the-race-conditions-of-neutron-l3-has-scheduler-under-scale-performace>`_ on OpenStack Summit in Barcelona 2016.
 
 **Junior Software Engineer, Mirantis IT, Saratov**, *Mar 2013 - Oct 2015*
 
-- Upstream OpenStack Python developer.
+- Upstream contributions to OpenStack in Python.
 - Neutron Core reviewer with focus on DB area since June 2015.
-- Attendance OpenStack Summit Vancouver 2014.
+- Attended OpenStack Summit Vancouver 2014.
 
 **Assistant, Saratov State University named after N.G.Chernyshevsky**, *Sep 2014 - Jun 2015*
 
