@@ -56,40 +56,40 @@ Work experience
 
 **Senior Software Engineer, Mirantis IT, Saratov** , *Sep 2020 - Present*
 
-    Tungstenfabric integration in MOS.
-    Go development of operator-sdk based operators.
-    Automation of backup-restore DB backends procedure for Tungstenfabric operator in MOS.
+- Tungstenfabric integration in MOS.
+- Go development of operator-sdk based operators.
+- Automation of backup-restore DB backends procedure for Tungstenfabric operator in MOS.
 
 **Senior Software Engineer, Mirantis IT, Saratov**, *Dec 2017 - Sep 2020*
 
-    Python upstream developer OpenStack Octavia project.
-    Attendance OpenStack PTG Atlanta 2017.
-    Member of core reviewers team of OpenStack Octavia.
-    Administration of hardware lab (configuration, management Jenkins via salt models ).
-    Throughput DPDK testing Neutron OVS capabilities.
-    Configuration of OpenStack components via salt models.
-    OpenStack Helm development (Octavia integration).
+- Python upstream developer OpenStack Octavia project.
+- Attendance OpenStack PTG Atlanta 2017.
+- Member of core reviewers team of OpenStack Octavia.
+- Administration of hardware lab (configuration, management Jenkins via salt models ).
+- Throughput DPDK testing Neutron OVS capabilities.
+- Configuration of OpenStack components via salt models.
+- OpenStack Helm development (Octavia integration).
 
 **Software Engineer, Mirantis IT, Saratov**, *Oct 2015 - Dec 2017*
 
-    Upstream OpenStack Python developer.
-    Neutron Core reviewer with focus on DB area.
-    Scale testing.
-    Speaker OpenStack Summit Barcelona 2016.
+- Upstream OpenStack Python developer.
+- Neutron Core reviewer with focus on DB area.
+- Scale testing.
+- Speaker OpenStack Summit Barcelona 2016.
 
 **Junior Software Engineer, Mirantis IT, Saratov**, *Mar 2013 - Oct 2015*
 
-    Upstream OpenStack Python developer.
-    Neutron Core reviewer with focus on DB area since June 2015.
-    Attendance OpenStack Summit Vancouver 2014.
+- Upstream OpenStack Python developer.
+- Neutron Core reviewer with focus on DB area since June 2015.
+- Attendance OpenStack Summit Vancouver 2014.
 
 **Assistant, Saratov State University named after N.G.Chernyshevsky**, *Sep 2014 - Jun 2015*
 
-    Instructor for practice lessons OOP Java basis
+- Instructor for practice lessons OOP Java basis
 
 Education
 ---------
 
 **Saratov State University named after N.G.Chernyshevsky**,  *2009 - 2014*
 
-    Diploma (specialist, Applied Mathematics and Computer Science)
+- Diploma (specialist, Applied Mathematics and Computer Science)
